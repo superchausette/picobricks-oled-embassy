@@ -334,6 +334,7 @@ version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "eca4a9380d03e61063067b8239f67d2fa9f108ede7c46b4273804f6b79e59a1d"
 dependencies = [
+ "defmt",
  "embassy-futures",
  "embassy-sync 0.5.0",
  "embassy-time",
@@ -510,6 +511,7 @@ version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1587e58ed8f7e0215246e6bb8d7ef4837db682e209e5ef7410a81c500dc949e5"
 dependencies = [
+ "defmt",
  "embassy-futures",
  "embassy-net-driver-channel",
  "embassy-sync 0.5.0",
@@ -1027,14 +1029,17 @@ dependencies = [
  "cortex-m-rt",
  "defmt",
  "defmt-rtt",
+ "embassy-embedded-hal",
  "embassy-executor",
  "embassy-rp",
  "embassy-time",
+ "embassy-usb",
  "embassy-usb-logger",
  "embedded-hal 1.0.0",
  "fixed",
  "fixed-macro",
  "futures",
+ "log",
  "panic-probe",
  "portable-atomic",
  "ssd1306",
