@@ -8,9 +8,9 @@ The program will display ascii letter (upper / lower case) using the alphabetica
 as row and column.
 For example:
 
-> abcdedfghijklmnop
-> bcdedfghijklmnopq
-> cdedfghijklmnopqr
+> abcdedfghijklmnop  
+> bcdedfghijklmnopq  
+> cdedfghijklmnopqr  
 
 The delay between each new character is controlled by the *potentiometer* (maximum 999 ms) (*GPIO26*). To display the delay, press the *button* (*GPIO10*) and keep it down. The LED will be lit up (*GPIO7*).
 
